@@ -4,7 +4,7 @@ pipeline {
     pollSCM('*/2 * * * *')
   }
   stages { 
-    stage('Example') { 
+    stage('Example 2') { 
       steps { 
         echo 'Hello World' 
       } 
